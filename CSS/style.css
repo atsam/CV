@@ -1,0 +1,39 @@
+/*.page-header{
+  background-image: url("../image/50cent.jpg");
+  height:500px;
+  width: 100%;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: rgb(111, 122, 138);
+  position: relative;
+}*/
+
+
+/*.title-header{
+  position: absolute;
+  left: 208px;
+  width: 539px;
+  top:223px;
+}
+
+main{
+  left: 80px;
+  width: 820px;
+  position: absolute;
+  top:781px;
+  height: 670px;
+  background-color: 333b50;
+}
+
+h1{
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+h5{
+  line-height: 1.8em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}*/
