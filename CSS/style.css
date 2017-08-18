@@ -1,39 +1,139 @@
-/*.page-header{
-  background-image: url("../image/50cent.jpg");
+.page-header{
+  height:1050px;
+  width: 100%;
+  background-color: rgb(111, 122, 138);
+
+}
+
+nav a:first-child{
+  font-size: 2rem;
+}
+
+nav{
+  background-color: rgb(111, 122, 138);
+	height:80px;
+	box-shadow: 0px 5px  30px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 5px  30px  rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 5px 30px  rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 5px 30px  rgba(0,0,0,0.2);
+}
+
+.circle{
+	width:50px;
+	height:50px;
+	background-color: rgb(111, 122, 138);
+	box-shadow: 4px 0px  rgb(209, 10, 10);
+	-moz-box-shadow: 4px 0px  rgb(209, 10, 10);
+	-webkit-box-shadow: 4px 0px  rgb(209, 10, 10);
+	-o-box-shadow: 4px 0px  rgb(209, 10, 10);
+	border-radius:100px;
+
+}
+h1, h5 {
+  color:rgb(193, 0, 19);
+  letter-spacing: .3rem;
+
+}
+h1{
+  padding-top: 3rem;
+  line-height: 3.5rem;
+}
+
+.fewer-title >h5{
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+
+}
+
+span{
+  display: block;
+  line-height: 3.5rem;
+}
+
+/*deuxieme div en dessous div= midle*/
+
+.midle > .circle{
+
+  	width:5rem;
+  	height:5rem;
+  	background-color: rgb(51, 59, 80);
+  	box-shadow: 4px 0px  rgb(209, 10, 10);
+  	-moz-box-shadow: 4px 0px  rgb(209, 10, 10);
+  	-webkit-box-shadow: 4px 0px  rgb(209, 10, 10);
+  	-o-box-shadow: 4px 0px  rgb(209, 10, 10);
+  	border-radius:100px;
+    margin: 0 auto;
+}
+
+.midle p:first-child{
+  font-size: 3rem;
+  color: rgb(209, 10, 10);
+  line-height: 5rem;
+}
+.midle p:nth-child(2){
+  line-height: 2rem;
+  font-size: .9rem;
+}
+.midle{
+  background-color: rgb(51, 59, 80);
+}
+
+/*troisieme div en dessous div=bar*/
+
+.bar{
+  background-image: url("../image/objet.jpg");
   height:500px;
   width: 100%;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center center;
   background-color: rgb(111, 122, 138);
-  position: relative;
-}*/
-
-
-/*.title-header{
-  position: absolute;
-  left: 208px;
-  width: 539px;
-  top:223px;
+  background-blend-mode: multiply;
+}
+.first-bar{
+  padding-top: 4rem;
 }
 
-main{
-  left: 80px;
-  width: 820px;
-  position: absolute;
-  top:781px;
-  height: 670px;
-  background-color: 333b50;
+.bar > p{
+  margin-left: 1rem;
+  color: white;
+}
+.progress-bar{
+  background-color: rgb(209, 10, 10);
+  margin:0 3rem 0 1rem;
+  font-size: 1rem;
 }
 
-h1{
-  margin: 0;
-  line-height: normal;
-  letter-spacing: normal;
+.professional, .knowledge{
+  letter-spacing: .3rem;
 }
 
-h5{
-  line-height: 1.8em;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-}*/
+/*div portfolio en bas*/
+.portfolio{
+  background-color: 4d5366;
+}
+
+.first-portfolio{
+  letter-spacing: .2rem;
+  padding-top: 3rem;
+}
+
+@media only screen and (min-width:321px) {
+  .page-header{
+    background-image: url("../image/atsam.png");
+    height:500px;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(111, 122, 138);
+    background-blend-mode: multiply;
+  }
+  span{
+    display: inline-block;
+    line-height: 3.5rem;
+  }
+
+}
