@@ -246,7 +246,7 @@ footer{
   }
 
   /*deuxième div en bas midle*/
-
+/*
   .midle{
     background-color: rgb(51, 59, 80);
     padding-top: 4rem ;
@@ -267,10 +267,10 @@ footer{
     text-align: center;
     line-height: 2rem;
     font-size: .9rem;
-  }
+  }*/
 
   /*troisieme div en dessous div=bar*/
-
+/*
   .bar{
     background-image: url("../image/objet.jpg");
     height:1100px;
@@ -301,10 +301,10 @@ footer{
 
   .area {
     color:rgb(154, 162, 178);
-  }
+  }*/
 
   /*div portfolio en bas*/
-  .portfolio{
+  /*.portfolio{
     background-color: rgb(77, 83, 102);
   }
 
@@ -320,10 +320,10 @@ footer{
     padding-bottom: 3rem;
     width: 326px;
     height: 320px;
-  }
+  }*/
 
   /*div empty en bas*/
-
+/*
   .empty{
     background-color: rgb(116, 122, 136);
     height: 700px;
@@ -354,9 +354,9 @@ padding-right: 7rem;
   }
 .cell{
   display: block;
-}
+}*/
 /*div icon */
-.icon{
+/*.icon{
   background-image: url("../image/savane.jpg");
   height:88vh;
   width: 100%;
@@ -369,4 +369,4 @@ footer{
   display: flex;
   align-items: flex-end;
 }
-}
+}*/
