@@ -50,10 +50,10 @@ nav{
   width:50px;
   height:50px;
   background-color: rgb(111, 122, 138);
-  box-shadow: 4px 0px  rgb(209, 10, 10);
-  -moz-box-shadow: 4px 0px  rgb(209, 10, 10);
-  -webkit-box-shadow: 4px 0px  rgb(209, 10, 10);
-  -o-box-shadow: 4px 0px  rgb(209, 10, 10);
+  box-shadow: 4px 0px  rgb(249, 249, 249);
+  -moz-box-shadow: 4px 0px rgb(249, 249, 249);
+  -webkit-box-shadow: 4px 0px rgb(249, 249, 249);
+  -o-box-shadow: 4px 0px  rgb(249, 249, 249);
   border-radius:100px;
 
 }
@@ -237,7 +237,6 @@ footer{
 
 .circle{
   width:30px;
-  box-shadow: 4px 0px  white;
 }
 .bar{
   height:230vh;
@@ -284,12 +283,9 @@ footer{
   left: 6.5%;
   font-size:45px;
   top:20%;
-
 }
 .circle{
   width:30px;
-  box-shadow: 4px 0px white;
-
 }
 .bar{
   height:230vh;
@@ -302,19 +298,35 @@ footer{
   padding-top: 4rem;
   padding-bottom: 0rem;
 }
-
 .section1{
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .section2{
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .two, .three, .four {
   padding-top: 2rem;
 }
+}
 
+@media only screen and (min-width:426px) and (max-width:768px){
+
+  .midle{
+  padding-top: 2rem ;
+  height: 80vh;
+  width: 56%;
+  position: absolute;
+  left: 20%;
+  top:38%;
+}
+.profile{
+  position: absolute;
+  left: 6.5%;
+  font-size:45px;
+  top:20%;
+}
+.circle{
+  width:70px;
 }
