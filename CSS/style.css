@@ -215,6 +215,10 @@ footer{
   html{
     font-size:14px;
   }
+  .page-header{
+    background-image: none;
+    background-color: rgb(111, 122, 138);
+  }
   .midle{
   padding-top: 2rem ;
   height: 100vh;
@@ -247,16 +251,22 @@ footer{
   padding-bottom: 0rem;
 }
 
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section1, .section2{
+  width:100%;
+}
 .section1{
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .section2{
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
-
 .two, .three, .four {
   padding-top: 2rem;
 }
@@ -266,6 +276,10 @@ footer{
 @media only screen and (min-width:321px) and (max-width:425px){
   html{
     font-size:14px;
+  }
+  .page-header{
+    background-image: none;
+    background-color: rgb(111, 122, 138);
   }
   .midle{
   padding-top: 2rem ;
@@ -295,14 +309,23 @@ footer{
   padding-top: 4rem;
   padding-bottom: 0rem;
 }
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section1, .section2{
+  width:100%;
+}
 .section1{
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
+
 .section2{
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
+
 .two, .three, .four {
   padding-top: 2rem;
 }
